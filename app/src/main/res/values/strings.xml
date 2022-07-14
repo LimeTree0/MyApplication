@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="hello">Hello android world!</string>
+    <color name="text_color">#FFFF00</color>
+    <dimen name="text_size">20dp</dimen>
+
+    <style name="MytextStyle">
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
 </resources>
